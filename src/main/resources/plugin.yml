@@ -1,0 +1,12 @@
+main: cn.wode490390.nukkit.playeruuidtool.PlayerUuidTool
+name: "PlayerUuidTool"
+description: "Player UUID tool plugin for Nukkit"
+author: "wode490390"
+website: "http://wode490390.cn/"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: POSTWORLD
+permissions:
+  playeruuidtool.command:
+    description: "Allows player to use all commands of PlayerUuidTool plugin"
+    default: op

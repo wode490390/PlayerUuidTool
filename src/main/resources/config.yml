@@ -1,0 +1,2 @@
+# Display the player's UUID on console when player join
+console-show: true
